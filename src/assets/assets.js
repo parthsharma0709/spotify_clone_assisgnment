@@ -41,7 +41,12 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
-
+import Wonderwall from './Wonderwall.mp3'
+import Supersonic from './Supersonic.mp3'
+import supersonic from './supersonic.jpeg'
+import wonderwall from './wonderwall.jpeg'
+import anger from './anger.mp3'
+import angerimage from './angerimage.jpeg'
 export const assets = {
     bell_icon,
     home_icon,
@@ -117,11 +122,11 @@ export const albumsData = [
 export const songsData = [
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:00"
+        name: "Don't Look Back In Anger",
+        image: angerimage,
+        file:anger,
+        desc:"Oasis",
+        duration:"4:47"
     },
     {
         id:1,
@@ -165,18 +170,18 @@ export const songsData = [
     },
     {
         id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
+        name: "Supersonic",
+        image: supersonic,
+        file: Supersonic,
+        desc:"Oasis",
+        duration:"4:43"
     },
     {
         id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
+        name: "Wonderwall",
+        image: wonderwall,
+        file:Wonderwall,
+        desc:"Oasis",
+        duration:"4:18"
     }
 ]
